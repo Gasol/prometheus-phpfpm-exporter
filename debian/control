@@ -1,15 +1,17 @@
 Source: prometheus-phpfpm-exporter
-Section: unknown
-Priority: optional
+Section: net
+Priority: extra
 Maintainer: Gasol Wu <gasol.wu@gmail.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), dh-golang, golang-any (>= 2:1.8),
+ golang-github-prometheus-client-golang-dev,
 Standards-Version: 3.9.5
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/bakins/php-fpm-exporter
 #Vcs-Git: git://anonscm.debian.org/collab-maint/prometheus-phpfpm-exporter.git
 #Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/prometheus-phpfpm-exporter.git;a=summary
 
 Package: prometheus-phpfpm-exporter
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, daemon
+Built-Using: ${misc:Built-Using}
+Description: Export php-fpm metrics in Prometheus format
+ Prometheus exporter for PHP-FPM, written in Go.
