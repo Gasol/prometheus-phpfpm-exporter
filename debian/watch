@@ -1,0 +1,4 @@
+version=3
+
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/prometheus-phpfpm-exporter-$1\.tar\.gz/ \
+  https://github.com/bakins/php-fpm-exporter/releases .*/v?(\d\S+)\.tar\.gz
