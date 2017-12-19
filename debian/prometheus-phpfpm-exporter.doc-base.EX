@@ -1,0 +1,20 @@
+Document: prometheus-phpfpm-exporter
+Title: Debian prometheus-phpfpm-exporter Manual
+Author: <insert document author here>
+Abstract: This manual describes what prometheus-phpfpm-exporter is
+ and how it can be used to
+ manage online manuals on Debian systems.
+Section: unknown
+
+Format: debiandoc-sgml
+Files: /usr/share/doc/prometheus-phpfpm-exporter/prometheus-phpfpm-exporter.sgml.gz
+
+Format: postscript
+Files: /usr/share/doc/prometheus-phpfpm-exporter/prometheus-phpfpm-exporter.ps.gz
+
+Format: text
+Files: /usr/share/doc/prometheus-phpfpm-exporter/prometheus-phpfpm-exporter.text.gz
+
+Format: HTML
+Index: /usr/share/doc/prometheus-phpfpm-exporter/html/index.html
+Files: /usr/share/doc/prometheus-phpfpm-exporter/html/*.html
