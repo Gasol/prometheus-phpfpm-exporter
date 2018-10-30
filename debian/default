@@ -1,0 +1,2 @@
+ARGS="--addr 127.0.0.1:9253 \
+      --endpoint http://127.0.0.1:9000/status"
