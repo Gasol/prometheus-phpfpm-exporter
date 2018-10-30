@@ -1,0 +1,15 @@
+[Unit]
+Description=Prometheus exporter for PHP-FPM metrics
+Documentation=https://github.com/bakins/php-fpm-exporter
+
+[Service]
+Restart=always
+User=prometheus
+EnvironmentFile=/etc/default/prometheus-phpfpm-exporter
+ExecStart=/usr/bin/prometheus-phpfpm-exporter $ARGS
+ExecReload=/bin/kill -HUP $MAINPID
+TimeoutStopSec=20s
+SendSIGKILL=no
+
+[Install]
+WantedBy=multi-user.target
