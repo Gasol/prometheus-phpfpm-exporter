@@ -1,0 +1,2 @@
+var/lib/prometheus/phpfpm-exporter
+var/log/prometheus
