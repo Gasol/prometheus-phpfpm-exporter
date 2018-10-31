@@ -1,5 +1,6 @@
-prometheus-phpfpm-exporter (0.3.3-1) UNRELEASED; urgency=low
+prometheus-phpfpm-exporter (0.3.3-1bintray1~stretch) stretch; urgency=low
 
   * Initial release
 
- -- Gasol Wu <gasol.wu@gmail.com>  Tue, 19 Dec 2017 12:09:22 +0800
+
+ -- Gasol Wu <gasol.wu@gmail.com>  Wed, 31 Oct 2018 17:25:17 +0800
